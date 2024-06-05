@@ -1,0 +1,257 @@
+<DOCTYPE html>
+<html> 
+<head> 
+<title>My Personal Websites</title>
+</head>
+
+<body background="background/flowers 2.jpeg ">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:#DF99BC  ;
+}
+
+.topnav a {
+  float: left;
+  color: #F5D32A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #FADBD8 ;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #F5D32A;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="file:///C:/Users/User/Desktop/auni.html/aboutme.html"target="_blank">myself</a>
+  <a href="file:///C:/Users/User/Desktop/auni.html/education.html"target="_blank">education</a>
+  <a href="file:///C:/Users/User/Desktop/auni.html/friends.html"target="_blank">friends</a>
+  <a href="file:///C:/Users/User/Desktop/auni.html/family.html"target="_blank">family</a>
+  <a href="file:///C:/Users/User/Desktop/auni.html/experience.html"target="_blank">experience</a>
+  <a href="file:///C:/Users/User/Desktop/auni.html/galery.html"target="_blank">gallery</a>
+</div>
+
+
+
+<font face="French Script MT"color="#FFACA9"size="60"</font>
+<h2 align="center">My Personal Websites</h2>
+<font face="Californian FB"color="#C69DD5 "size="20"</font>
+<small><h4 align="center">Hello Peeps !!!!</h4></small>
+<font face="Californian FB"size="20"</font>
+<small><h4 align="center">welcome to my page</h4><small>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<h2 style="text-align:center">Gallery</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="images/nurin 7.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/nurin 8.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/nurin 9.jpeg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/nurin 10.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/nurin 11.jpeg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/nurin 12.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/nurin 7.jpg" style="width:100%" onclick="currentSlide(1)" alt="1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/nurin 8.jpg" style="width:100%" onclick="currentSlide(2)" alt="2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/nurin 9.jpeg" style="width:100%" onclick="currentSlide(3)" alt="3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/nurin 10.jpg" style="width:100%" onclick="currentSlide(4)" alt="4">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/nurin 11.jpeg" style="width:100%" onclick="currentSlide(5)" alt="5">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="images/nurin 12.jpg" style="width:100%" onclick="currentSlide(6)" alt="6">
+    </div>
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<DOCTYPE html>
+<html> 
+<head> 
+<title>galery</title>
+</head>
+<body background="background/cats 1.jpeg">
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+<font face="French Script MT"color="#FFACA9"size="60"</font>
+  <h1>GALLERY<h1>
+  <h6>few random timeline of my life</h6>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="images/about me 9.jpg" style="width:100%">
+    <img src="images/nurin 7.jpg" style="width:100%">
+    <img src="images/about me 11.jpg" style="width:100%">
+    <img src="images/about me 12.jpg" style="width:100%">
+    <img src="images/me3.jpg" style="width:100%">
+    <img src="images/pitii 3.jpg" style="width:100%">
+    <img src="images/me7.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/me4.jpg" style="width:100%">
+    <img src="images/pateng 2.jpg" style="width:100%">
+    <img src="images/famy 18.png" style="width:100%">
+    <img src="images/me1.jpg" style="width:100%">
+    <img src="images/pateng 1.jpg" style="width:100%">
+    <img src="images/about me 6.jpg" style="width:100%">
+    <img src="images/aboutme 1.jpg" style="width:100%">
+
+  </div>  
+  <div class="column">
+    <img src="images/about me 5.jpg" style="width:100%">
+    <img src="images/friends 13.jpg" style="width:100%">
+    <img src="images/pitii 1.png" style="width:100%">
+    <img src="images/friends 21.jpg" style="width:100%">
+    <img src="images/famy 20.png" style="width:100%">
+    <img src="images/famy 23.png" style="width:100%">
+    <img src="images/me2.jpg" style="width:100%">
+    <img src="images/nurin 3.jpeg" style="width:100%">
+    <img src="images/famy 15.png" style="width:100%">
+
+  </div>
+  <div class="column">
+    <img src="images/friends 6.jpg" style="width:100%">
+    <img src="images/friends 12.jpg" style="width:100%">
+    <img src="images/famy 25.png" style="width:100%">
+    <img src="images/friends 17.jpg" style="width:100%">
+    <img src="images/famy 27.jpg" style="width:100%">
+    <img src="images/famy 14.png" style="width:100%">
+    <img src="images/adik 1.jpeg" style="width:100%">
+    <img src="images/pama 1.jpg" style="width:100%">
+    <img src="images/friends 3.jpg" style="width:100%">
+    <img src="images/friends 29.jpg" style="width:100%">
+
+  </div>
+</div>
+
+</body>

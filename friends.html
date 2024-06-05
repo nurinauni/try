@@ -1,0 +1,175 @@
+<DOCTYPE html>
+<html> 
+<head> 
+<title>friends</title>
+</head>
+<body background="background/flower3.jpeg">
+
+
+
+<meta name="My friends " content="width=device-width, initial-scale=1">
+<style>
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+</style>
+
+<font face="Californian FB"color="#0E4B5D   "size="20"</font>
+<h2 align="center">My Friends</h2>
+<p align="center">Do create a lot of memories with people around you so that you get to enjoy your life to the fullest</p>
+
+<div class="scroll-container">
+  <img src="images/friends 1.jpg" alt="1" width="600" height="400">
+  <img src="images/friends 2.jpg" alt="Forest" width="600" height="400">
+  <img src="images/friends 3.jpg" alt="Northern Lights" width="600" height="400">
+  <img src="images/friends 4.jpg" alt="Mountains" width="600" height="400">
+  <img src="images/friends 5.jpg" alt="Cinque Terre" width="600" height="400">
+  <img src="images/friends 6.jpg" alt="Forest" width="600" height="400">
+  <img src="images/friends 7.jpg" alt="Northern Lights" width="600" height="400">
+  <img src="images/friends 8.jpg" alt="Mountains" width="600" height="400">
+  <img src="images/friends 9.jpg" alt="Cinque Terre" width="600" height="400">
+  <img src="images/friends 10.jpg" alt="Forest" width="600" height="400">
+  <img src="images/friends 11.jpg" alt="Northern Lights" width="600" height="400">
+  <img src="images/friends 12.jpg" alt="Mountains" width="600" height="400">
+  <img src="images/friends 13.jpg" alt="Cinque Terre" width="600" height="400">
+  <img src="images/friends 14.jpg" alt="Forest" width="600" height="400">
+  <img src="images/friends 15.jpg" alt="Northern Lights" width="600" height="400">
+  <img src="images/friends 16.jpg" alt="Mountains" width="600" height="400">
+  <img src="images/friends 17.jpg" alt="Cinque Terre" width="600" height="400">
+  <img src="images/friends 18.jpg" alt="Forest" width="600" height="400">
+  <img src="images/friends 19.jpg" alt="Northern Lights" width="600" height="400">
+  <img src="images/friends 20.jpg" alt="Mountains" width="600" height="400">
+  <img src="images/friends 21.jpg" alt="Cinque Terre" width="600" height="400">
+  <img src="images/friends 22.jpg" alt="Forest" width="600" height="400">
+  <img src="images/friends 23.jpg" alt="Northern Lights" width="600" height="400">
+  <img src="images/friends 24.jpg" alt="Mountains" width="600" height="400">
+  <img src="images/friends 25.jpg" alt="Cinque Terre" width="600" height="400">
+  <img src="images/pateng.jpg" alt="Forest" width="600" height="400">
+  <img src="images/pateng 1.jpg" alt="Northern Lights" width="600" height="400">
+  <img src="images/pateng 2.jpg" alt="Mountains" width="600" height="400">
+  <img src="images/friends 26.jpg" alt="Cinque Terre" width="600" height="400">
+  <img src="images/friends 27.jpg" alt="Forest" width="600" height="400">
+  <img src="images/friends 28.jpg" alt="Northern Lights" width="600" height="400">
+  <img src="images/friends 29.jpg" alt="Mountains" width="600" height="400">
+
+
+</div>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div style="text-align:center">
+  <h2>૮꒰˵• ﻌ •˵꒱ა</h2>
+ 
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <video src="vid/class1.mp4"controls alt="Nature" style="width:100%" onclick="myFunction(this);"></video>
+
+  </div>
+  <div class="column">
+    <video src="vid/class3.mp4"controls alt="Nature" style="width:100%" onclick="myFunction(this);"></video>
+
+  </div>
+  <div class="column">
+    <video src="vid/class5.mp4"controls alt="Nature" style="width:100%" onclick="myFunction(this);"></video>
+
+  </div>
+  <div class="column">
+    <video src="vid/class2.mp4"controls alt="Nature" style="width:100%" onclick="myFunction(this);"></video>
+
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+
+
+  
+
+
+</body>
+</html>
